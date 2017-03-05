@@ -1,0 +1,183 @@
+.table {
+	width: 80%;
+	border: solid 2px #ccc; 
+	margin: 0 auto;
+	background-color: #ffffcc;
+	padding-bottom: 10px;
+}
+
+.cuisine {
+	float: left;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.img {
+	width: 120px;
+	height: 120px;
+	border: solid 1px #ccc;
+}
+
+.detail {
+	font-size: 20px;
+	margin-top: 8px;
+	margin-left: 40px;
+    text-align: left;
+}
+
+.main {
+	width: 500px;
+	margin: 0 auto;
+	border: solid 2px #ccc; 
+	background-color: #ffffcc;
+}
+
+.main1 {
+	width: 500px;
+	margin-left: 20%;
+	border: solid 2px #ccc; 
+	background-color: #ffffcc;
+	float: left;
+}
+
+.cookie {
+	float: right;
+	width: 300px;
+	border: solid 2px #ccc; 
+	background-color: #ffffcc;
+}
+
+.cookie_img {
+	width: 120px;
+	height: 90px;
+	border: 1;
+}
+
+.img_detail {
+	width: 220px;
+	height: 220px;
+	border: solid 1px #ccc;
+}
+
+.details {
+	width: 200px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+.more {
+	width: 250px;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.details td {
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.input {
+	font-size: 20px;
+}
+
+#sub, #add {
+	padding-top: 2px;
+}
+
+.a, a {
+	text-decoration: none;
+}
+
+.vip {
+	width: 40px;
+    height: 20px;
+}
+
+#order {
+	text-align:center; 
+	margin:0 auto;
+	width: 80%
+}
+
+#order table { 
+	width:80%; 
+	line-height:24px; 
+	border-top:2px solid #FF7F00; 
+	border-bottom:2px solid #FF7F00; 
+}
+
+#order table th { 
+	background:#FFE7BA; 
+	color:#FF7F00; 
+}
+
+#order table td { 
+	padding:10px 0;
+	border-top:1px solid #FF7F00; 
+}
+
+#order table td.thumb img { 
+	border:1px solid #dfdfe0; 
+	margin:0 10px; 
+	vertical-align:middle; 
+}
+
+#order table td.price, #order table td.number { 
+	text-align:center; 
+	width:100px; 
+	border-left:1px solid #e1e1e1; 
+}
+
+#order table td.price { 
+	color:#cc3300; 
+	font-weight:bold; 
+}
+
+#order table td.delete { 
+	width:60px; 
+	text-align:center; 
+	border-left:1px solid #e1e1e1; 
+}
+
+#order table td.number span {
+	padding:0 2px;
+	border:1px #c0c0c0 solid;
+	cursor:pointer;
+}
+
+#order table td.number input { 
+	width:20px; 
+	border:1px solid #c9c9c9; 
+	padding:2px; 
+	text-align:center; 
+}
+
+#order .total {
+	height:60px;
+}
+
+#order .total span {
+	line-height:60px;
+}
+
+.login {
+	width: 300px;
+	margin: 100px auto;	
+}
+
+.login input {
+	margin-top: 10px;
+}
+
+.login .text {
+	color: red;
+}
+
+.cookie dd {
+	margin-top: 3px;
+    margin-left: -10px;
+}
