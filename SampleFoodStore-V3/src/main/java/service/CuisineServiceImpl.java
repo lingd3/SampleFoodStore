@@ -19,6 +19,7 @@ public class CuisineServiceImpl implements CuisineService {
 	private CuisinesDao cuisinesDao;
 
 	// 获得所有的菜品
+	@Cacheable(value="CuisineDetail")
 	public ArrayList<Cuisine> getAllCuisines() {
 		return cuisinesDao.getAllCuisines();
 	}
@@ -29,7 +30,6 @@ public class CuisineServiceImpl implements CuisineService {
 	}
 		
 	// 根据菜名查询菜品
-	@Cacheable(value="CuisineDetail")
 	public ArrayList<Cuisine> getCuisinesByName(String name) {
 		System.out.println("Inside ...");
 		return cuisinesDao.getCuisinesByName(name);
